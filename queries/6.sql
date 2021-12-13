@@ -1,7 +1,3 @@
-/*
-6. Для указанного места вывести список аукционов, отсортированных по количеству выставленных вещей.
-*/
-
 SELECT DISTINCT A.ID_Auct, A.Specifics_Auct,
 (
 SELECT COUNT(LOA.Lot) 
