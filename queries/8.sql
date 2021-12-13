@@ -1,7 +1,3 @@
-/*
-8. Вывести список покупателей с указанием количества приобретенных предметов в указанный период времени.
-*/
-
 SELECT DISTINCT P.ID_Per, P.FirstName_Per, P.LastName_Per, 
 (SELECT COUNT(LOA.ID_Lot) FROM LotOnAuctions LOA
 INNER JOIN Auctions A ON A.ID_Auct=LOA.ID_Auct
