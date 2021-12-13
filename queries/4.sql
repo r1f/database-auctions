@@ -1,7 +1,3 @@
-/*
-4. Вывести список покупателей и для каждого из них — список аукционов, где были сделаны приобретения в указанный интервал дат.
-*/
-
 SELECT LOA.ID_PerCust, P.Firstname_Per, P.Lastname_Per, LOA.ID_Auct, A.Specifics_Auct
 FROM LotOnAuctions LOA
 INNER JOIN Person P ON P.ID_Per=LOA.ID_PerCust
