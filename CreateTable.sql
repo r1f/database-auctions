@@ -16,20 +16,20 @@ CREATE TABLE Person
 );
 
 INSERT INTO Person (FirstName_Per,LastName_Per, City_Per, Phone_Per, Gender_Per) VALUES 
-('Sore', 'Forefame', 'Minsk', '0259122324','M'),
-( 'Lil', 'Uzi', 'Atlanta', '7777777777','M'),
-( 'Ruby', 'Da Cherry', 'New Orleans', '0596666666','M'),
-( 'Budd', 'Dwyer', 'New Orleans', '0590066600','M'),
-( 'Bones', 'Sesh', 'Michigan', '8901515969','M'),
-('Gucci', 'Mane', 'Chicago','8959592345','M'),
+('Petr', 'Stariy', 'Minsk', '2551515962','M'),
+('Adam', 'Ruhav', 'Atlanta', '7777777777','M'),
+('Ruby', 'Da Cherry', 'New Orleans', '0596666666','M'),
+('Budd', 'Dwyer', 'New Orleans', '0590066600','M'),
+('Bones', 'Sesh', 'Michigan', '8901515969','M'),
+('Tom', 'Rick', 'Chicago','8959592345','M'),
 
-('Boulevard', 'Depo', 'Ufa', '5517319800','M'),
-( 'I', 'Sixone', 'Ufa', '6161616161','M'),
-( 'Victor', 'Tsoi', 'Saint Petersburg', '8005553535','M'),
-( 'Yung', 'Lean', 'Minsk', '0259903576','M'),
-( 'Mental', 'Dora', 'Moscow', '8801700050','F'),
-('Cherno', 'Burkv', 'Moscow','8568875564','F'),
-('Jeem', 'Bo', 'Saint-Petersburg','8800555236','M');
+('Roman', 'Sonnuy', 'Ufa', '5517319800','M'),
+('Vitaliy', 'Zaharov', 'Ufa', '6161616161','M'),
+('Victor', 'Tsoi', 'Saint Petersburg', '8005553535','M'),
+('Yung', 'Linus', 'Minsk', '0259903576','M'),
+('Anna', 'Luna', 'Moscow', '8801700050','F'),
+('Alexandra', 'Runina', 'Moscow','8568875564','F'),
+('Jeem', 'Bosketc', 'Saint-Petersburg','8800555236','M');
 
 CREATE TABLE Lots
 (
@@ -62,7 +62,7 @@ INSERT INTO Lots(Name_Lot,Discription_Lot,Available_Date,Sale_Sold,ID_PerSel) VA
 ('Bottle glass', 'Western Europe, mid-19th century, colorless glass, painted in gold. Height - 19.0 cm', '05.12.2015', 'Sold', '4'),
 ('Vase glass Bohemia', 'Bohemia, late 19th century, two-tone glass, painting with enamel paints, gilding. Height - 36.5 cm', '18.01.2008', 'Sold', '4'),
 ('Goblet with a medallion made of green glass',' Western Europe, early XX century, green glass with an applied medallion made of milk glass, painting, paints and gold. Height - 16.5 cm ','02.01.2018', DEFAULT,'5'),
-('Painting "Rabbi"', 'Author: unknown artist. Western Europe, late XIX - early XX centuries, oil on canvas. Size - 60 õ50 cm', '12.12.2012', 'Sold', '2'),
+('Painting "Rabbi"', 'Author: unknown artist. Western Europe, late XIX - early XX centuries, oil on canvas. Size - 60 ï¿½50 cm', '12.12.2012', 'Sold', '2'),
 ('Painting "Winter landscape with a wolf"', 'Author: unknown artist. Western Europe, late XIX - early XX centuries, hardboard, oil. Size - 20 x 28.5 cm', '08.07.2013', DEFAULT, '1'),
 ('Painting "Hunting Dogs"', 'Second: unknown master. Western Europe, late 19th century, oil on canvas. Size - 90 x 60 cm', '25.10.2009','Sold', '6'),
 ('Painting "At the House"', 'Author: Bruno Crowel (1907 - 1999). Germany, mid XX century, wood, oil. Size - 26.5 x 31 cm', '17.03.2014', DEFAULT, '3'),
